@@ -1,0 +1,12 @@
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.json
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.dev.json
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\Repository\obj\Debug\netcoreapp3.1\Repository.genruntimeconfig.cache
