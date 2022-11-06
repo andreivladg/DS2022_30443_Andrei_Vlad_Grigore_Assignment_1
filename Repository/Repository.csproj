@@ -15,6 +15,10 @@
     <Compile Remove="Migrations\20221030153751_Updates5.Designer.cs" />
     <Compile Remove="Migrations\20221030153845_Updates5.cs" />
     <Compile Remove="Migrations\20221030153845_Updates5.Designer.cs" />
+    <Compile Remove="Migrations\20221105195429_Rebuild2.cs" />
+    <Compile Remove="Migrations\20221105195429_Rebuild2.Designer.cs" />
+    <Compile Remove="Migrations\20221105195651_Rebuild2.cs" />
+    <Compile Remove="Migrations\20221105195651_Rebuild2.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

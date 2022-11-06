@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/cDmBtWRQ5sowWAVDnRqm0o9L+OW1BgG79w4dwPVDq1vE5RY6TXFhzfLKpldm8LDh2K9mEeDgH0cPQ3cdRMaXg==",
+  "dgSpecHash": "cL2/cxBMc1UibxGFo3V5G1iVsLd2SWX1Rp+txg7Uwab9PlJKw9MIm8bFs52D9X+QfIaUn2iPoPBdWKvrZG2k/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\WebApplication\\WebApplication.csproj",
+  "projectFilePath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\WebApplication\\WebApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrei Vlad\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
     "C:\\Users\\Andrei Vlad\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",
@@ -53,6 +53,7 @@
     "C:\\Users\\Andrei Vlad\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\Andrei Vlad\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Andrei Vlad\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Andrei Vlad\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\Andrei Vlad\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.5\\microsoft.visualstudio.web.codegeneration.3.1.5.nupkg.sha512",
     "C:\\Users\\Andrei Vlad\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.5\\microsoft.visualstudio.web.codegeneration.contracts.3.1.5.nupkg.sha512",
     "C:\\Users\\Andrei Vlad\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.5\\microsoft.visualstudio.web.codegeneration.core.3.1.5.nupkg.sha512",

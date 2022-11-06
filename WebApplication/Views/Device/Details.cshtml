@@ -7,7 +7,7 @@
 <h1>Consumptions</h1>
 <div>
     <label>Consumption Date</label>
-    <input type="date" value="@DateTime.UtcNow" />
+    <input id="daypicker" type="date" value="" onchange="RenderChart()"/>
 </div>
 <hr />
 <table class="table">
@@ -49,7 +49,6 @@
     <script type="text/javascript">
         function RenderChart() {
 
-
             var xValues = [0, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23];
             var yValues = [12,5,16,4,11,5,6,19,20,13,19,12,16,5,16,19,13,20,10,9,21,10,5];
 
@@ -74,8 +73,8 @@
             });
         }
         $(document).ready(function () {
-            console.log("Ok");
-            RenderChart();
+           // console.log("Ok");
+           // RenderChart();
         })
     </script>
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2TQ/9OknGfwEq31BpjkGBOYdxbD6cBCfqtZV26nDup9mnU8yRirFBUaL2Fi3Sm+uJkfofhtP9ghu2qOO89LUCA==",
+  "dgSpecHash": "yF4etOpmsSkumjbubHGYu74uHJkyzQi2k9SD4Q9DoWtkAU+AC/vZL7NoBfA7C6fcJkBUShTRlRpGx6cUFGT4iw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\Logic.csproj",
+  "projectFilePath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\Logic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrei Vlad\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.10\\microsoft.aspnetcore.cryptography.internal.5.0.10.nupkg.sha512",
     "C:\\Users\\Andrei Vlad\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.10\\microsoft.aspnetcore.cryptography.keyderivation.5.0.10.nupkg.sha512",

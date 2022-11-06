@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\Logic.csproj": {}
+    "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\Logic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\Logic.csproj": {
+    "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\Logic.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\Logic.csproj",
         "projectName": "Logic",
-        "projectPath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\Logic.csproj",
+        "projectPath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\Logic.csproj",
         "packagesPath": "C:\\Users\\Andrei Vlad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\obj\\",
+        "outputPath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Logic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andrei Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\Repository.csproj"
+              "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\Repository.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\Repository.csproj": {
+    "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Andrei Vlad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\Andrei Vlad\\Desktop\\DSAssignments\\Assignment1\\Assignement1\\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andrei Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
