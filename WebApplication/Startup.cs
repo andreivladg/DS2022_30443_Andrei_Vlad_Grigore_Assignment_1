@@ -34,7 +34,8 @@ namespace WebApplication
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("DefaultConnection"),
+                    options=>options.EnableRetryOnFailure()));
             services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddRoles<AppRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
