@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Logic.Mappers;
 using System.Linq;
 using Repository.Entities;
+using Repository;
 
 namespace Logic.Implementations
 {
@@ -52,7 +53,12 @@ namespace Logic.Implementations
 
         public async Task Update(AppUserDTO userDTO)
         {
-            var user = userDTO.FromDTO();
+            var user = await _userRepository.GetByIdAsync(userDTO.Id);
+            user.UserName = userDTO.Username;
+            user.FirstName = userDTO.FirstName;
+            user.LastName = userDTO.LastName;
+            user.Devices = userDTO.Devices == null ? new List<Device>() : userDTO.Devices.Select(d => d.FromDTO()).ToList();
+            user.Role = Enum.Parse<AppRoleEnum>(userDTO.Role);
             await _userRepository.UpdateAsync(user);
         }
 

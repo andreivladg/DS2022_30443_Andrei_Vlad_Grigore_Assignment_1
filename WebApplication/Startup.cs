@@ -17,6 +17,8 @@ using Repository.Interfaces;
 using Repository.Implementations;
 using Logic.Interfaces;
 using Logic.Implementations;
+using WebApplication.Services;
+using WebApplication.HostedServices;
 
 namespace WebApplication
 {
@@ -44,6 +46,10 @@ namespace WebApplication
             services.AddScoped<IUserLogic, UserLogic>();
             services.AddScoped<IDeviceLogic, DeviceLogic>();
             services.AddScoped<IDeviceRepository, DeviceRepository>();
+            services.AddScoped<IRabbitConsumer, RabbitConsumer>();
+            services.AddScoped<IConsumptionRepository, ConsumptionRepository>();
+            services.AddScoped<IConsumptionLogic, ConsumptionLogic>();
+            services.AddHostedService<MessageReader>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

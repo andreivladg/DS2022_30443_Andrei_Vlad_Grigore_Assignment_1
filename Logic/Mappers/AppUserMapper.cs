@@ -18,8 +18,7 @@ namespace Logic.Mappers
                 Username = user.UserName,
                 FirstName = user.FirstName,
                 LastName = user.LastName,
-                Email = user.Email,
-                Devices = null, //user.Devices.Select(d => d.ToDTO()).ToList(), TO ADD
+                Devices = user.Devices.Count != 0 ? user.Devices.Select(d => d.ToDTO()).ToList() : new List<DeviceDTO>(),
                 Role = user.Role.ToString()
 
             };
@@ -34,8 +33,7 @@ namespace Logic.Mappers
                 UserName = userDto.Username,
                 FirstName = userDto.FirstName,
                 LastName = userDto.LastName,
-                Email = userDto.Email,
-                Devices = null,// to add
+                Devices = userDto.Devices.Select(d => d.FromDTO()).ToList(),
                 Role = Enum.Parse<AppRoleEnum>(userDto.Role)
             };
             return user;

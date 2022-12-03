@@ -15,5 +15,7 @@ namespace Logic.Interfaces
         Task RemoveDevice(DeviceDTO device);
         Task<DeviceDTO> GetByName(string name);
         Task<ICollection<DeviceDTO>> GetUserDevices(Guid userId);
+        Task<DeviceDTO> GetWithConsumptions(Guid id);
+        Task<ICollection<decimal>> GetHourlyConsumptions(Guid deviceId,int day);
     }
 }

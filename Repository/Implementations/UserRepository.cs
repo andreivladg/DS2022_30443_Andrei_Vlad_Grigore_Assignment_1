@@ -51,6 +51,10 @@ namespace Repository.Implementations
                 .Where(u => u.Id == newUser.Id)
                 .FirstOrDefaultAsync();
             _context.Entry(user).CurrentValues.SetValues(newUser);
+            var userUp = await _context.Users
+                .Include(u => u.Devices)
+                .Where(u => u.Id == newUser.Id)
+                .FirstOrDefaultAsync();
             await _context.SaveChangesAsync();
         }
 

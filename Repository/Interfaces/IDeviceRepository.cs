@@ -15,5 +15,6 @@ namespace Repository.Interfaces
         Task RemoveDevice(Guid id);
         Task<Device> GetByName(string name);
         Task<ICollection<Device>> GetUserDevices(Guid userId);
+        Task<Device> GetWithConsumptions(Guid id);
     }
 }

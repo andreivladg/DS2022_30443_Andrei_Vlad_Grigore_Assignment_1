@@ -71,6 +71,16 @@ namespace Repository.Implementations
             await _context.SaveChangesAsync();
         }
 
+        public async Task<Device> GetWithConsumptions(Guid id)
+        {
+            var device = await _context.Devices
+                .Include(d=>d.Consumptions)
+                .Where(d => d.Id == id)
+                .AsNoTracking()
+                .FirstOrDefaultAsync();
+            return device;
+        }
+
         public async Task UpdateDevice(Device newDevice)
         {
             var device = await _context.Devices

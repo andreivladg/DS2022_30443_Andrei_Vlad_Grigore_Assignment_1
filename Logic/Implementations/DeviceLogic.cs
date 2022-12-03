@@ -54,5 +54,31 @@ namespace Logic.Implementations
         {
            await _deviceRepository.UpdateDevice(device.FromDTO());
         }
+
+        public async Task<DeviceDTO> GetWithConsumptions(Guid id)
+        {
+            var device = await _deviceRepository.GetWithConsumptions(id);
+            return device.ToDTO();
+        }
+
+        public async Task<ICollection<decimal>> GetHourlyConsumptions(Guid deviceId, int day)
+        {
+            var device = await _deviceRepository.GetWithConsumptions(deviceId);
+            var dayConsumptions = device.Consumptions.Where(c => c.ConsumptionDate.Day == day).ToList();
+            var hourlyConsumptions = new List<decimal>();
+            for(int i = 0; i < 23; i++)
+            {
+                decimal data = 0;
+                foreach(var consumption in dayConsumptions)
+                {
+                    if(consumption.ConsumptionDate.Hour == i)
+                    {
+                        data += consumption.kwh;
+                    }
+                }
+                hourlyConsumptions.Add(data);
+            }
+            return hourlyConsumptions;
+        }
     }
 }

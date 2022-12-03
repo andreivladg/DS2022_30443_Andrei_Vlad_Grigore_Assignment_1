@@ -123,7 +123,6 @@ namespace WebApplication.Controllers
         public async Task<IActionResult> EditPost(AppUserDTO user)
         {
             await _userLogic.Update(user);
-
             return RedirectToAction(nameof(Index));
         }
 

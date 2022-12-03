@@ -74,14 +74,21 @@ namespace WebApplication.Controllers
             return View("Create");
         }
 
-        public async Task<IActionResult> Details(DeviceDTO deviceDto)
+        public async Task<IActionResult> Details(Guid id)
         {
-            var consumptions = new List<ConsumptionDTO>();
+            var device = await _deviceLogic.GetWithConsumptions(id);
+            var consumptions = device.Consumptions;
             if(consumptions == null)
             {
                 return View(new List<ConsumptionDTO>());
             }
             return View(consumptions);
         }
+
+        public async Task<IActionResult> GetHourlyConsumption(Guid deviceId)
+        {
+            var consumptions = await _deviceLogic.GetHourlyConsumptions(deviceId, DateTime.UtcNow.Day);
+            return Ok(consumptions);
+        } 
     }
 }
