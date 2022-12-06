@@ -9,15 +9,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebApplication.Hubs;
 
 namespace WebApplication.Services
 {
     public class RabbitConsumer : IRabbitConsumer
     {
         private readonly IServiceScopeFactory _scopeFactory;
-        public RabbitConsumer(IServiceScopeFactory scopeFactory)
+        private readonly NotificationsHub _notifyHub;
+        public RabbitConsumer(IServiceScopeFactory scopeFactory, NotificationsHub notifyHub)
         {
             _scopeFactory = scopeFactory;
+            _notifyHub = notifyHub;
         }
         public IConnection CreateConnection()
         {
@@ -57,6 +60,7 @@ namespace WebApplication.Services
                     {
                         var consumptionLogic = scope.ServiceProvider.GetRequiredService<IConsumptionLogic>();
                         await consumptionLogic.AddConsumption(consumptionDTO);
+                        await _notifyHub.SendMessage(consumptionDTO.kwh.ToString());
                     }
                     Console.WriteLine(sensorReadingDTO.MeasuredValue);
                 };

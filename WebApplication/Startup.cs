@@ -19,6 +19,13 @@ using Logic.Interfaces;
 using Logic.Implementations;
 using WebApplication.Services;
 using WebApplication.HostedServices;
+using Microsoft.AspNetCore.WebSockets;
+using System.Net.WebSockets;
+using Microsoft.AspNetCore.Http;
+using System.Net;
+using System.Threading;
+using System.Text;
+using WebApplication.Hubs;
 
 namespace WebApplication
 {
@@ -50,13 +57,18 @@ namespace WebApplication
             services.AddScoped<IConsumptionRepository, ConsumptionRepository>();
             services.AddScoped<IConsumptionLogic, ConsumptionLogic>();
             services.AddHostedService<MessageReader>();
+            services.AddSingleton<NotificationsHub>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            var wsOptions = new WebSocketOptions() { KeepAliveInterval = TimeSpan.FromSeconds(120) };
+            app.UseWebSockets(wsOptions);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -69,6 +81,8 @@ namespace WebApplication
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+            
+
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -82,7 +96,11 @@ namespace WebApplication
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
+                endpoints.MapHub<NotificationsHub>("/notifyHub");
             });
+      
+           
         }
+
     }
 }
