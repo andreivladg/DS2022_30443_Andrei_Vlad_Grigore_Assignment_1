@@ -80,9 +80,10 @@
 
         function getHourlyConsumption() {
             var deviceId = $("#deviceId").data("device-id");
+            var date = $('#daypicker').val().split("-");
             $.ajax({
                 type: "GET",
-                url: "/Device/GetHourlyConsumption?deviceId=" + deviceId,
+                url: "/Device/GetHourlyConsumption?deviceId=" + deviceId+"&day="+date[2],
                 cache: false,
                 success: function (data) {
                     RenderChart(data);

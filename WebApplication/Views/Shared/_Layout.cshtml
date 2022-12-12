@@ -16,8 +16,12 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div>Notifications:</div>
-                <div id="notificationsCount"></div>
+                @if (User.Identity.IsAuthenticated && User.Claims.Any(c => c.Value.Equals("REGULAR")))
+                {
+                    <div class="font-weight-bold">Notifications:</div>
+                    <div id="notificationsCount"></div>
+                }
+                <div>|</div>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">

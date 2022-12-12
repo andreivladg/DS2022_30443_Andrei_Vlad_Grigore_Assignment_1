@@ -77,7 +77,7 @@ namespace WebApplication.Controllers
         public async Task<IActionResult> Details(Guid id)
         {
             var device = await _deviceLogic.GetWithConsumptions(id);
-            var consumptions = device.Consumptions;
+            var consumptions = device.Consumptions.Take(15).ToList();
             if(consumptions == null)
             {
                 return View(new List<ConsumptionDTO>());
@@ -85,9 +85,9 @@ namespace WebApplication.Controllers
             return View(consumptions);
         }
 
-        public async Task<IActionResult> GetHourlyConsumption(Guid deviceId)
+        public async Task<IActionResult> GetHourlyConsumption(Guid deviceId,int day)
         {
-            var consumptions = await _deviceLogic.GetHourlyConsumptions(deviceId, DateTime.UtcNow.Day);
+            var consumptions = await _deviceLogic.GetHourlyConsumptions(deviceId, day);
             return Ok(consumptions);
         } 
     }
