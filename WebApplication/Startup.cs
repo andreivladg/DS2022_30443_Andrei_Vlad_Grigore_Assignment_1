@@ -57,7 +57,9 @@ namespace WebApplication
             services.AddScoped<IConsumptionRepository, ConsumptionRepository>();
             services.AddScoped<IConsumptionLogic, ConsumptionLogic>();
             services.AddHostedService<MessageReader>();
+            services.AddHostedService<ChatService>();
             services.AddSingleton<NotificationsHub>();
+            services.AddSingleton<ChatHub>();
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddSignalR();
@@ -97,6 +99,7 @@ namespace WebApplication
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
                 endpoints.MapHub<NotificationsHub>("/notifyHub");
+                endpoints.MapHub<ChatHub>("/chatHub");
             });
       
            

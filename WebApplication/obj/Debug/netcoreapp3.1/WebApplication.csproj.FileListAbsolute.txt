@@ -371,3 +371,9 @@ C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\Assignement1\DS2022_30443
 C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\Assignement1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\WebApplication\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
 C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\Assignement1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\WebApplication\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\Assignement1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\Assignement1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\WebApplication\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\Assignement1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\WebApplication\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\Assignement1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\WebApplication\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\Assignement1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\WebApplication\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\Assignement1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\WebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\AdminChat.cshtml.g.cs
+C:\Users\Andrei Vlad\Desktop\DSAssignments\Assignment1\Assignement1\DS2022_30443_Andrei_Vlad_Grigore_Assignment_1\WebApplication\obj\Debug\netcoreapp3.1\Razor\Views\User\UserChat.cshtml.g.cs

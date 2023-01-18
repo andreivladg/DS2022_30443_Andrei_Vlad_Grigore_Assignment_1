@@ -9,7 +9,7 @@ EXPOSE 80
 EXPOSE 443
 
 ENV ASPNETCORE_ENVIRONMENT=Development
-ENV DOTNET_URLS=http://+:5000
+ENV DOTNET_URLS=https://+:5001
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src

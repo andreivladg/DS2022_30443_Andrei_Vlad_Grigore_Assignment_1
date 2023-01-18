@@ -40,6 +40,20 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.21.12, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.51.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.51.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.25, )"

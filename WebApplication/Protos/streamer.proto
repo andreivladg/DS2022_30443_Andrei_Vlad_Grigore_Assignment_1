@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService.Protos";
+package GrpcService;
+
+service Messenger{
+	rpc SendMessage(ChatMessage) returns (ChatMessage);
+	//rpc StartChat(ChatRequest) returns (ChatReply);
+}
+
+message ChatMessage{
+	string sender = 1;
+	string username = 2;
+	string message = 3;
+}
+/*
+message ChatRequest{
+	User user = 1;
+}
+
+message ChatReply{
+	int32 room_id = 1; 
+}
+
+message User{
+	string id = 1;
+	string username = 2;
+}
+*/

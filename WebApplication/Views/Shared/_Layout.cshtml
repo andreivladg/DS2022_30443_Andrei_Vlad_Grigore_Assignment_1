@@ -37,6 +37,9 @@
                         else if (User.Identity.IsAuthenticated && User.Claims.Any(c => c.Value.Equals("REGULAR")))
                         {
                             <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AdminChat">Admin Chat</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Device" asp-action="UserDevices">My Devices</a>
                             </li>
                         }
@@ -60,7 +63,7 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/signalr/dist/browser/signalr.js"></script>
-    <script src="~/js/monitoring-events.js"></script>
+    
     @RenderSection("Scripts", required: false)
 </body>
 </html>

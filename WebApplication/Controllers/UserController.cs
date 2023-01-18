@@ -141,5 +141,11 @@ namespace WebApplication.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public async Task<IActionResult> Chat(Guid id)
+        {
+            var user = await _userLogic.GetById(id);
+            return View("UserChat",user);
+        }
+
     }
 }
